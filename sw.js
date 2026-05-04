@@ -1,10 +1,11 @@
 // Service Worker — 让 App 离线也能打开
-var CACHE = 'jizhang-v1';
+var CACHE = 'jizhang-v2';
 var FILES = [
   '.',
   'index.html',
   'manifest.json',
-  'icon.svg'
+  'icon-192.png',
+  'icon-512.png'
 ];
 
 // 安装时：把关键文件缓存起来
